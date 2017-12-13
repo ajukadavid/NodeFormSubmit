@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Contact Your Person</title>
+</head>
+<body>
+   <% include partials/navbar.ejs %>
+   <h1>Congratulations, You Are Here On Time</h1>
+   <h1>Register Now For Salvation To The New World</h1>
+   <form class="form" method="POST" action="/contact">
+   <label for="who">who the fuck are you?</label>
+   <input type="text" name="who" placeholder="name" class="fieldset">
+   <label for="reason">whats your reason for coming?</label>
+   <input type="text" name="reason" placeholder="your reason" class="fieldset">
+   <label for="email">whats your email address?</label>
+   <input type="email" name="email" class="fieldset"  placeholder="ya email">
+   <input type="submit" name="submit" class="action-button" value="enter">
+   </form>
+</body>
+</html>

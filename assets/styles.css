@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+   background: gainsboro;
+   margin: 0;
+   padding: 0;
+}
+h1 {
+   color: skyblue;
+   text-transform: uppercase;
+   font-size: 23px;
+   text-align: center;
+}
+p {
+   text-align: center;
+   color: red;
+   text-transform: uppercase;
+   font-family: cursive;
+}
+h3 {
+   text-align: center;
+   color: lightgreen;
+}
+#navbar {   
+   border: 3px;
+   background: wheat;
+   height: 50px;
+   margin: 20px;
+   border-radius: 3px;
+   box-shadow: 0 0 0 2px gainsboro, 0 0 0 3px wheat;
+   position: relative;
+   top: -3px;
+}
+#navbar ul li {
+   display: inline;
+}
+#nav {
+   font-family: cursive;
+   text-align: center;
+   padding: 12px;
+}
+a {
+   text-decoration: none;
+   color: #000000;
+}
+a:hover {
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+
+#button {
+   text-align: center;
+   margin: 80px 0 0 350px;
+   border: 3px solid indianred;
+   border-radius: 3px;
+   background: indianred;
+}
+.form {
+   width: 400px;
+   margin: 50px auto;
+   text-align: center;
+   position: relative;
+}
+.form .fieldset {
+   padding: 15px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   margin-bottom: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   font-family: montserrat;
+   color: #2C3E50;
+   font-size: 13px;
+}
+.form .action-button {
+   width: 100px;
+   background: #27AE60;
+   font-weight: bold;
+   color: white;
+   border: 0 none;
+   border-radius: 1px;
+   cursor: pointer;
+   padding: 10px 5px;
+   margin: 10px 5px;
+}

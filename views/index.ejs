@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Dummy Login Page</title>
+   <link href="./assets/styles.css" rel="stylesheet"></head>
+<body>
+   <% include partials/navbar.ejs %>
+   <h1>Welcome To the Cradle Of Civivlisation</h1>
+   <p>The World As You Know It Is About To End</p>
+   <h3>Sign Up For The Safe Spaceship</h3>
+   <button id="button">Sign Up OR DIE!!!</button>
+</body>
+<script type="text/javascript">
+   document.getElementById("button").onclick = function () {
+       location.href = "/contact";
+   };
+</script>
+</html>
